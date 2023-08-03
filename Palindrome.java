@@ -12,7 +12,7 @@ public class Palindrome {
 		return reversed.toUpperCase();
 	}
 	
-	public void isPalindrome(String input, String reversed) {
+	public static void isPalindrome(String input, String reversed) {
 		String isPalindrome = input.equals(reversed) ? input + " is a palindrome." : input + " is not a palindrome";
 		System.out.println(isPalindrome);
 	}
